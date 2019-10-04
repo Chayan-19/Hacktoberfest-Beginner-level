@@ -101,7 +101,7 @@ void bubbleSort(struct Node *start)
 	while (swapped); 
 } 
 
-/* function to swap data of two nodes a and b*/
+/* function for swappping data of two nodes a and b*/
 void swap(struct Node *a, struct Node *b) 
 { 
 	int temp = a->data; 
